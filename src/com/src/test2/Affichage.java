@@ -1,7 +1,5 @@
 package com.src.test2;
 
-import java.awt.Color;
-import java.awt.Dimension;
 import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -54,7 +52,6 @@ public class Affichage {
 
 		int largeurFenetre = 1360;
 		int hauteurFenetre = 300;
-		int largeurEcran = 300;
 		int hauteurEcran = 100;
 		
 		frame = new JFrame();
@@ -72,7 +69,7 @@ public class Affichage {
 		Font police = new Font("Arial", Font.BOLD, 50);
 
 		///initialise l'afficheur de texte
-		ecran = new JLabel("Timothée vous souhaite un bon jeu avec Moulinator");
+		ecran = new JLabel("Timothée vous souhaite un bon jeu avec Morris");
 		ecran.setFont(police);
 		ecran.setBounds(20, hauteurFenetre / 2, largeurFenetre, hauteurEcran);
 		panel.add(ecran);
