@@ -191,10 +191,21 @@ public class AffichageClient {
 			Affichage.ecran.setText("Excellent ! Attendez le bip pour rejouer");
 			break;
 		case 3:
-			Affichage.ecran.setText("Excellent ! Le pion va être manger.");
+			Affichage.ecran.setText("Excellent ! Le pion va être mangé.");
 			break;
 		case 4:
 			Affichage.ecran.setText("Pas de pion à manger ! Choisissez-en un autre.");
+			break;
+		case 5:
+			Affichage.ecran.setText("Il n'y a pas de pion à déplacer ici !");
+			break;
+		case 6:
+			Affichage.ecran.setText("Choississez maintenant sur quelle case le déplacer...");
+			break;
+		case 7:
+			Affichage.ecran.setText("Impossible de déplacer le pion ici !");
+		case 8:
+			Affichage.ecran.setText("Attendez le bip, puis choisissez un pion à manger");
 
 		}
 
