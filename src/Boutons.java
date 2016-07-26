@@ -78,9 +78,10 @@ public class Boutons {
 			break;
 		case 7:
 			Affichage.ecran.setText("Impossible de déplacer ton pion ici !");
+			break;
 		case 8:
 			Affichage.ecran.setText("Attends le bip, puis choisis un pion à manger");
-
+			break;
 		}
 	}
 

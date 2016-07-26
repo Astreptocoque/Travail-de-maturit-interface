@@ -45,7 +45,7 @@ public class Affichage {
 	/// Initialise les composants de la fenetre
 
 	private void initialize() throws IOException {
-		int tailleBoutons = 65;
+		int tailleBoutons = 50;
 		int largeurFenetre = tailleBoutons * 24;
 		int hauteurFenetre = 300;
 		int hauteurEcran = 100;
@@ -57,7 +57,7 @@ public class Affichage {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 
-		frame.setResizable(true);
+		frame.setResizable(false);
 		panel.setBounds(20, 0, largeurFenetre, hauteurFenetre);
 		frame.getContentPane().add(panel);
 		panel.setLayout(null);
