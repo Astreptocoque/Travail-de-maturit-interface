@@ -45,7 +45,7 @@ public class Affichage {
 	/// Initialise les composants de la fenetre
 
 	private void initialize() throws IOException {
-		int tailleBoutons = 50;
+		int tailleBoutons = 65;
 		int largeurFenetre = tailleBoutons * 24;
 		int hauteurFenetre = 300;
 		int hauteurEcran = 100;

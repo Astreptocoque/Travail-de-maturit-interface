@@ -59,28 +59,28 @@ public class Boutons {
 
 		switch (nombre) {
 		case 1:
-			Affichage.ecran.setText("Case occupée ! Choisis-en une autre.");
+			Affichage.ecran.setText("Occupied Square! Choose another one.");
 			break;
 		case 2:
-			Affichage.ecran.setText("Excellent ! Attends le bip pour rejouer");
+			Affichage.ecran.setText("Excellent ! Wait for the 'bip' to play again.");
 			break;
 		case 3:
-			Affichage.ecran.setText("Arrrg ! Je dois manger mon propre pion !");
+			Affichage.ecran.setText("Arrrg ! I have to eat my own piece !");
 			break;
 		case 4:
-			Affichage.ecran.setText("Pas de pion à manger ! Choissis-en un autre.");
+			Affichage.ecran.setText("No piece to eat ! Choose another one.");
 			break;
 		case 5:
-			Affichage.ecran.setText("Il n'y a pas de pion à déplacer ici !");
+			Affichage.ecran.setText("There is no piece to move here !");
 			break;
 		case 6:
-			Affichage.ecran.setText("Choisis maintenant sur quelle case le déplacer...");
+			Affichage.ecran.setText("Now choose on which square you want to move it.");
 			break;
 		case 7:
-			Affichage.ecran.setText("Impossible de déplacer ton pion ici !");
+			Affichage.ecran.setText("You can't move your piece here !");
 			break;
 		case 8:
-			Affichage.ecran.setText("Attends le bip, puis choisis un pion à manger");
+			Affichage.ecran.setText("Wait for the 'bip', then  choose another one to eat");
 			break;
 		}
 	}
