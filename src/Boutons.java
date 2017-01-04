@@ -83,6 +83,16 @@ public class Boutons {
 			Affichage.ecran.setText("Wait for the 'bip', then  choose another one to eat");
 			break;
 		}
+		
+		/// pour changer l'affichage si c'est le 3
+		if(nombre == 3){
+			try {
+				Thread.sleep(2000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			Affichage.ecran.setText("Wait for the 'bip' to play again.");
+		}
 	}
 
 	public int getNombreBouton() {

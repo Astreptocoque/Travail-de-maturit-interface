@@ -45,7 +45,7 @@ public class Affichage {
 	/// Initialise les composants de la fenetre
 
 	private void initialize() throws IOException {
-		int tailleBoutons = 65;
+		int tailleBoutons = 60;
 		int largeurFenetre = tailleBoutons * 24;
 		int hauteurFenetre = 300;
 		int hauteurEcran = 100;
@@ -65,7 +65,7 @@ public class Affichage {
 		Font police = new Font("Microsoft JhengHei UI", Font.BOLD, 50);
 
 		/// initialise l'afficheur de texte
-		ecran = new JLabel("Bonne chance, cher(e) adversaire !");
+		ecran = new JLabel("Good luck, dear oppenent !");
 		ecran.setFont(police);
 		ecran.setBounds(20, hauteurFenetre / 2, largeurFenetre, hauteurEcran);
 		panel.add(ecran);
