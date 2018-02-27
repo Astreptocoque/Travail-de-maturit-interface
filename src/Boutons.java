@@ -62,7 +62,7 @@ public class Boutons {
 			Affichage.ecran.setText("Occupied Square! Choose another one.");
 			break;
 		case 2:
-			Affichage.ecran.setText("Excellent ! Wait for the 'bip' to play again.");
+			Affichage.ecran.setText("Excellent ! Wait for the 'beep' to play again.");
 			break;
 		case 3:
 			Affichage.ecran.setText("Arrrg ! I have to eat my own piece !");
@@ -80,7 +80,7 @@ public class Boutons {
 			Affichage.ecran.setText("You can't move your piece here !");
 			break;
 		case 8:
-			Affichage.ecran.setText("Wait for the 'bip', then  choose another one to eat");
+			Affichage.ecran.setText("Wait for the 'beep', then  choose another one to eat");
 			break;
 		}
 		
@@ -91,7 +91,7 @@ public class Boutons {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			Affichage.ecran.setText("Wait for the 'bip' to play again.");
+			Affichage.ecran.setText("Wait for the 'beep' to play again.");
 		}
 	}
 
